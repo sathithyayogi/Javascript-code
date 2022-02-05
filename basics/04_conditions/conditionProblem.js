@@ -42,9 +42,11 @@ var platinumTicket = true;
 
 // && - AND, || - OR
 
-if(normalTicket || goldenTicket || platinumTicket){
-console.log('Welcome to Satyam Cinemas');
-}else{
-  console.log('Sorry sir/madam, you are not allowed!');
-}
+// if(normalTicket || goldenTicket || platinumTicket){
+// console.log('Welcome to Satyam Cinemas');
+// }else{
+//   console.log('Sorry sir/madam, you are not allowed!');
+// }
 
+  (normalTicket || goldenTicket || platinumTicket) ?  console.log('Welcome to Satyam Cinemas') :  
+  console.log('Sorry sir/madam, you are not allowed!');
